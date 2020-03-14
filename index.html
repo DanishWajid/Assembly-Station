@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Assembly Station</title>
+
+    <!-- Required meta tags -->
+    <meta name="description" content="Come shop the world at Mall Hopper" />
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+
+    <!-- Font Awesome -->
+    <link href="assets/css/fontawesome/all.min.css" rel="stylesheet" />
+    <!--load all styles -->
+    <link href="assets/css/fontawesome/brands.min.css" rel="stylesheet" />
+    <!--load all styles -->
+
+    <!-- Owl Carousel -->
+    <link rel="stylesheet" href="assets/css/owlcarousel/owl.carousel.min.css" />
+    <link
+      rel="stylesheet"
+      href="assets/css/owlcarousel/owl.theme.default.min.css"
+    />
+
+    <!-- Stylesheet CSS -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light container-fluid">
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarTogglerDemo03"
+        aria-controls="navbarTogglerDemo03"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand" href="index.html"
+        >Assembly Station<span class="sr-only">(current)</span></a
+      >
+    </nav>
+
+    <section class="container py-3">
+      <h1 class="text-center mb-3 lang" key="welcome">
+        Welcome to the assembly station
+      </h1>
+      <p class="text-center lang" key="select">Select Language</p>
+      <div class="d-flex justify-content-center mb-5">
+       
+        <div  class="card mr-3">
+          <a id="de" class="translate" onclick="setLanguage('de')">
+          <div class="card-body p-3">
+           
+              <img
+                src="assets/img/german-flag.png"
+                alt=""
+                class="img-fluid lang-flag"
+              />
+           
+          </div>
+        </a>
+        </div>
+    
+
+     
+        <div  class="card">
+          <a id="en" class="translate focus" onclick="setLanguage('en')">
+          <div class="card-body p-3">
+            
+              <img
+                src="assets/img/england-flag.png"
+                alt=""
+                class="img-fluid lang-flag"
+              />
+           </div>
+          </a>
+        </div>
+   
+      </div>
+      <div class="row mb-3">
+        <div class="col-lg-6 col-md-8 offset-lg-3 offset-md-2">
+          <div class="card mb-4">
+            <div class="card-body text-center">
+              <video class="img-fluid lang" key="videoError" controls>
+                <source src="assets/vid/1.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+            </div>
+          </div>
+          <a
+            class="btn btn-block btn-primary btn-lg text-white"
+            href="steps.html"
+            >Start</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- jQuery first, then Owl.Carousel.js then Popper.js, then Bootstrap JS -->
+    <script src="assets/js/jquery-3.3.1.slim.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/translate.js"></script>
+    <script type = “javascript “ src=”assets/language/en.json”></script>
+
+var data = JSON.stringfy(Data);
+
+// data has now whole json object
+
+</script>
+    <script>
+      $(".carousel").carousel({
+        interval: 2000
+      });
+    </script>
+  </body>
+</html>
