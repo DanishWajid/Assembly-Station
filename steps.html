@@ -47,7 +47,31 @@
         >Assembly Station<span class="sr-only">(current)</span></a
       >
     </nav>
-
+    <div class="modal-section">
+      <div class="modal" tabindex="-1" role="dialog" id="play-vid-modal">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title lang" key="modelHeading">Video Guide</h5>
+              <button
+                type="button"
+                class="close"
+                data-dismiss="modal"
+                aria-label="Close"
+              >
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body" id="videoDiv">
+              <video class="img-fluid"  controls>
+                <source src="assets/vid/1.mp4" class="lang" type="video/mp4" key="videoError"  id="video" />
+                Your browser does not support the video tag.
+              </video>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <section class="container py-3">
       <div id="steps-bar" class="progress-steps">
         <div  class="mr-3 lang" key="steps">Steps</div>
@@ -781,7 +805,7 @@
         <div class="col-12 mt-md-5">
           <div class="d-flex justify-content-between">
             <div class="text-center">
-              <button class="btn btn-secondary btn-lg text-white lang" key="play" btn-play>
+              <button class="btn btn-secondary btn-lg text-white" btn-play>
                 Play Video
               </button>
             </div>
@@ -789,7 +813,7 @@
               <button  class="btn btn-primary btn-lg text-white lang" key="next" btn-next>
                 Next Step
               </button>
-              <a class="btn btn-primary btn-lg text-white d-none lang" key="submit" btn-submit  href="index.html">Submit</a>
+              <a class="btn btn-primary btn-lg text-white d-none lang" key="submit" btn-submit  href="congrats.html">Submit</a>
             </div>
           </div>
         </div>
@@ -803,7 +827,7 @@
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/script.js"></script>
     <script src="assets/js/translate.js"></script>
-    <script type = “javascript “ src=”assets/language/en.json”></script>
+
     <script>
       $(".carousel").carousel({
         interval: 2000

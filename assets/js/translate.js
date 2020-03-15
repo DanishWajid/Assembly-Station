@@ -89,9 +89,10 @@ $(document).ready(function() {
       step40: "Directions for Step 40",
       description40: "This is step 40",
       submit: "Submit",
-      success: "Congratulations",
+      success: "Congratulations!",
       successMsg: "You have successfully completed the program.",
-      restart: "Restart"
+      restart: "Restart",
+      modelHeading: "Video Guide"
     },
     de: {
       title: "Montagestation",
@@ -182,9 +183,10 @@ $(document).ready(function() {
       step40: "Anweisungen für Schritt 40",
       description40: "Dies ist Schritt 40",
       submit: "Einreichen",
-      success: "Herzliche Glückwünsche",
+      success: "Herzliche Glückwünsche!",
       successMsg: "Sie haben das Programm erfolgreich abgeschlossen.",
-      restart: "Neustart"
+      restart: "Neustart",
+      modelHeading: "Videoanleitung"
     }
   };
   if (localStorage.getItem("language") != null) {

@@ -1,5 +1,6 @@
 $(document).ready(function() {
   var stepMove = false;
+
   $("button[btn-next]").click(function() {
     const currentStep = $("#steps-container").attr("step");
     $("#steps-container").attr("step", parseInt(currentStep) + 1);
@@ -24,5 +25,12 @@ $(document).ready(function() {
       $("#barStep-extention").addClass("d-none");
       stepMove = true;
     }
+  });
+
+  $("button[btn-play]").click(function() {
+    var videoFile = "assets/vid/" + $("#steps-container").attr("step") + ".mp4";
+    $("#video").attr("src", videoFile);
+    $("#videoDiv video")[0].load();
+    $("#play-vid-modal").modal("show");
   });
 });
