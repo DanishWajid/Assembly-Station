@@ -1,0 +1,1019 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Assembly Station - Steps</title>
+    <!-- Required meta tags -->
+    <meta name="description" content="Come shop the world at Mall Hopper" />
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css" />
+
+    <!-- Font Awesome -->
+    <link href="../assets/css/fontawesome/all.min.css" rel="stylesheet" />
+    <!--load all styles -->
+    <link href="../assets/css/fontawesome/brands.min.css" rel="stylesheet" />
+    <!--load all styles -->
+
+    <!-- Owl Carousel -->
+    <link
+      rel="stylesheet"
+      href="../assets/css/owlcarousel/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="../assets/css/owlcarousel/owl.theme.default.min.css"
+    />
+
+    <!-- Stylesheet CSS -->
+    <link rel="stylesheet" href="../assets/css/style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light container-fluid">
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarTogglerDemo03"
+        aria-controls="navbarTogglerDemo03"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand" href="index.html"
+        >Assembly Station<span class="sr-only">(current)</span></a
+      >
+    </nav>
+    <div class="modal-section">
+      <div class="modal" tabindex="-1" role="dialog" id="play-vid-modal">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title ">Videoanleitung</h5>
+              <button
+                type="button"
+                class="close"
+                data-dismiss="modal"
+                aria-label="Close"
+              >
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body" id="videoDiv">
+              <video class="img-fluid" controls>
+                <source src="../assets/vid/1.mp4" type="video/mp4" id="video" />
+                Ihr Browser unterstützt das Video-Tag nicht.
+              </video>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section class="container py-3">
+      <div id="steps-bar" class="progress-steps">
+        <div class="mr-3 ">
+          Schritte
+        </div>
+        <div id="barStep-1" class="step active">
+          <p>1</p>
+        </div>
+        <div id="barStep-11" class="step">
+          <p>2</p>
+        </div>
+        <div id="barStep-21" class="step">
+          <p>3</p>
+        </div>
+        <div id="barStep-31" class="step">
+          <p>4</p>
+        </div>
+        <div id="barStep-41" class="step">
+          <p>5</p>
+        </div>
+        <div id="barStep-51" class="step">
+          <p>6</p>
+        </div>
+        <div id="barStep-61" class="step">
+          <p>7</p>
+        </div>
+        <div id="barStep-71" class="step">
+          <p>8</p>
+        </div>
+        <div id="barStep-81" class="step">
+          <p>9</p>
+        </div>
+        <div id="barStep-91" class="step">
+          <p>10</p>
+        </div>
+      </div>
+      <div class="row">
+        <div id="steps-container" step="1">
+          <div class="row">
+            <div class="col-3 mb-3">
+              <div>
+                <img
+                  id="image"
+                  src="../assets/img/1.png"
+                  alt=""
+                  class="img-fluid"
+                />
+              </div>
+            </div>
+            <div class="col-md-9 mb-3">
+              <div id="scrollView" class="scrollView">
+                <div class="list">
+                  <ul>
+                    <li>
+                      <input unchecked disabled type="checkbox" id="step-1" />
+                      <label for="option"
+                        >Kontrollkästchen Nr. 1 bezieht sich auf Bild Nr. 1
+                      </label>
+                      <ul>
+                        <li>
+                          <label
+                            ><input disabled id="step-2" type="checkbox" />Das
+                            Unter-Kontrollkästchen Nr. 1.1 bezieht sich auf Bild
+                            Nr. 2
+                          </label>
+                        </li>
+                        <li>
+                          <label
+                            ><input disabled id="step-3" type="checkbox" />Das
+                            Unter-Kontrollkästchen Nr. 1.2 bezieht sich auf Bild
+                            Nr. 3
+                          </label>
+                        </li>
+                        <li>
+                          <label
+                            ><input disabled id="step-4" type="checkbox" />Das
+                            Unter-Kontrollkästchen Nr. 1.3 bezieht sich auf Bild
+                            Nr. 4
+                          </label>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+                <div class="list">
+                  <ul>
+                    <li>
+                      <input disabled type="checkbox" id="step-5" />
+                      <label for="option"
+                        >Kontrollkästchen Nr. 2 bezieht sich auf Bild Nr. 5
+                      </label>
+                      <ul>
+                        <li>
+                          <label
+                            ><input id="step-6" disabled type="checkbox" />Das
+                            Unter-Kontrollkästchen Nr. 2.1 bezieht sich auf Bild
+                            Nr. 6
+                          </label>
+                        </li>
+                        <li>
+                          <label
+                            ><input id="step-7" disabled type="checkbox" />Das
+                            Unter-Kontrollkästchen Nr. 2.2 bezieht sich auf Bild
+                            Nr. 7
+                          </label>
+                        </li>
+                        <li>
+                          <label
+                            ><input id="step-8" disabled type="checkbox" />Das
+                            Unter-Kontrollkästchen Nr. 2.3 bezieht sich auf Bild
+                            Nr. 8
+                          </label>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+                <div class="list">
+                  <ul>
+                    <li>
+                      <input id="step-9" disabled type="checkbox" />
+                      <label for="option"
+                        >Kontrollkästchen Nr. 3 bezieht sich auf Bild Nr.
+                        9</label
+                      >
+                      <ul>
+                        <li>
+                          <label
+                            ><input id="step-10" disabled type="checkbox" />Das
+                            Unter-Kontrollkästchen Nr. 3.1 bezieht sich auf Bild
+                            Nr. 10
+                          </label>
+                        </li>
+                        <li>
+                          <label
+                            ><input id="step-11" disabled type="checkbox" />Das
+                            Unter-Kontrollkästchen Nr. 3.2 bezieht sich auf Bild
+                            Nr. 11
+                          </label>
+                        </li>
+                        <li>
+                          <label
+                            ><input id="step-12" disabled type="checkbox" />Das
+                            Unter-Kontrollkästchen Nr. 3.3 bezieht sich auf Bild
+                            Nr. 12
+                          </label>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+                <div class="list">
+                  <ul>
+                    <li>
+                      <input id="step-13" disabled type="checkbox" />
+                      <label for="option"
+                        >Kontrollkästchen Nr. 4 bezieht sich auf Bild Nr.
+                        13</label
+                      >
+                      <ul>
+                        <li>
+                          <label
+                            ><input id="step-14" disabled type="checkbox" />Das
+                            Unter-Kontrollkästchen Nr. 4.1 bezieht sich auf Bild
+                            Nr. 14
+                          </label>
+                        </li>
+                        <li>
+                          <label
+                            ><input id="step-15" disabled type="checkbox" />Das
+                            Unter-Kontrollkästchen Nr. 4.2 bezieht sich auf Bild
+                            Nr. 15
+                          </label>
+                        </li>
+                        <li>
+                          <label
+                            ><input id="step-16" disabled type="checkbox" />Das
+                            Unter-Kontrollkästchen Nr. 4.3 bezieht sich auf Bild
+                            Nr. 16
+                          </label>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+                <div class="list">
+                  <ul>
+                    <li>
+                      <input id="step-17" disabled type="checkbox" />
+                      <label for="option"
+                        >Das Kontrollkästchen Nr. 5 bezieht sich auf Bild Nr.
+                        17</label
+                      >
+                      <ul>
+                        <li>
+                          <label
+                            ><input id="step-18" disabled type="checkbox" />Das
+                            Unter-Kontrollkästchen Nr. 5.1 bezieht sich auf Bild
+                            Nr. 18
+                          </label>
+                        </li>
+                        <li>
+                          <label
+                            ><input id="step-19" disabled type="checkbox" />Das
+                            Unter-Kontrollkästchen Nr. 5.2 bezieht sich auf Bild
+                            Nr. 19
+                          </label>
+                        </li>
+                        <li>
+                          <label
+                            ><input id="step-20" disabled type="checkbox" />Das
+                            Unter-Kontrollkästchen Nr. 5.3 bezieht sich auf Bild
+                            Nr. 20
+                          </label>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+                <div class="list">
+                  <ul>
+                    <li>
+                      <input id="step-21" disabled type="checkbox" />
+                      <label for="option"
+                        >Das Kontrollkästchen Nr. 6 bezieht sich auf Bild Nr.
+                        21</label
+                      >
+                      <ul>
+                        <li>
+                          <label
+                            ><input id="step-22" disabled type="checkbox" />Das
+                            Unter-Kontrollkästchen 6.1 bezieht sich auf Bild 22
+                          </label>
+                        </li>
+                        <li>
+                          <label
+                            ><input id="step-23" disabled type="checkbox" />Das
+                            Unter-Kontrollkästchen Nr. 6.2 bezieht sich auf Bild
+                            Nr. 23
+                          </label>
+                        </li>
+                        <li>
+                          <label
+                            ><input id="step-24" disabled type="checkbox" />Das
+                            Unter-Kontrollkästchen Nr. 6.3 bezieht sich auf Bild
+                            Nr. 24
+                          </label>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+                <div class="list">
+                  <ul>
+                    <li>
+                      <input id="step-25" disabled type="checkbox" />
+                      <label for="option"
+                        >Kontrollkästchen Nr. 7 bezieht sich auf Bild Nr.
+                        25</label
+                      >
+                      <ul>
+                        <li>
+                          <label
+                            ><input id="step-26" disabled type="checkbox" />Das
+                            Unter-Kontrollkästchen Nr. 7.1 bezieht sich auf Bild
+                            Nr. 26
+                          </label>
+                        </li>
+                        <li>
+                          <label
+                            ><input id="step-27" disabled type="checkbox" />Das
+                            Unter-Kontrollkästchen Nr. 7.2 bezieht sich auf Bild
+                            Nr. 27
+                          </label>
+                        </li>
+                        <li>
+                          <label
+                            ><input id="step-28" disabled type="checkbox" />Das
+                            Unter-Kontrollkästchen Nr. 7.3 bezieht sich auf Bild
+                            Nr. 28
+                          </label>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+                <div class="list">
+                  <ul>
+                    <li>
+                      <input id="step-29" disabled type="checkbox" />
+                      <label for="option"
+                        >Das Kontrollkästchen Nr. 8 bezieht sich auf Bild Nr.
+                        29</label
+                      >
+                      <ul>
+                        <li>
+                          <label
+                            ><input id="step-30" disabled type="checkbox" />Das
+                            Unter-Kontrollkästchen Nr. 8.1 bezieht sich auf Bild
+                            Nr. 30
+                          </label>
+                        </li>
+                        <li>
+                          <label
+                            ><input id="step-31" disabled type="checkbox" />Das
+                            Unter-Kontrollkästchen Nr. 8.2 bezieht sich auf Bild
+                            Nr. 31
+                          </label>
+                        </li>
+                        <li>
+                          <label
+                            ><input id="step-32" disabled type="checkbox" />Das
+                            Unter-Kontrollkästchen Nr. 8.3 bezieht sich auf Bild
+                            Nr. 32
+                          </label>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+                <div class="list">
+                  <ul>
+                    <li>
+                      <input id="step-33" disabled type="checkbox" />
+                      <label for="option"
+                        >Das Kontrollkästchen Nr. 9 bezieht sich auf Bild Nr.
+                        33</label
+                      >
+                      <ul>
+                        <li>
+                          <label
+                            ><input id="step-34" disabled type="checkbox" />Das
+                            Unter-Kontrollkästchen 9.1 bezieht sich auf Bild 34
+                          </label>
+                        </li>
+                        <li>
+                          <label
+                            ><input id="step-35" disabled type="checkbox" />Das
+                            Unter-Kontrollkästchen Nr. 9.2 bezieht sich auf Bild
+                            Nr. 35
+                          </label>
+                        </li>
+                        <li>
+                          <label
+                            ><input id="step-36" disabled type="checkbox" />Das
+                            Unter-Kontrollkästchen Nr. 9.3 bezieht sich auf Bild
+                            Nr. 36
+                          </label>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+                <div class="list">
+                  <ul>
+                    <li>
+                      <input id="step-37" disabled type="checkbox" />
+                      <label for="option"
+                        >Das Kontrollkästchen Nr. 10 bezieht sich auf Bild Nr.
+                        37</label
+                      >
+                      <ul>
+                        <li>
+                          <label
+                            ><input id="step-38" disabled type="checkbox" />Das
+                            Unter-Kontrollkästchen Nr. 10.1 bezieht sich auf
+                            Bild Nr. 38
+                          </label>
+                        </li>
+                        <li>
+                          <label
+                            ><input id="step-39" disabled type="checkbox" />Das
+                            Unter-Kontrollkästchen Nr. 10.2 bezieht sich auf
+                            Bild Nr. 39
+                          </label>
+                        </li>
+                        <li>
+                          <label
+                            ><input id="step-40" disabled type="checkbox" />Das
+                            Unter-Kontrollkästchen Nr. 10.3 bezieht sich auf
+                            Bild Nr. 40
+                          </label>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+                <div class="list">
+                  <ul>
+                    <li>
+                      <input unchecked disabled type="checkbox" id="step-41" />
+                      <label for="option"
+                        >Das Kontrollkästchen Nr. 11 bezieht sich auf Bild Nr.
+                        41
+                      </label>
+                      <ul>
+                        <li>
+                          <label
+                            ><input disabled id="step-42" type="checkbox" />Das
+                            Unter-Kontrollkästchen Nr. 11.1 bezieht sich auf
+                            Bild Nr. 42
+                          </label>
+                        </li>
+                        <li>
+                          <label
+                            ><input disabled id="step-43" type="checkbox" />Das
+                            Unter-Kontrollkästchen Nr. 11.2 bezieht sich auf
+                            Bild Nr. 43
+                          </label>
+                        </li>
+                        <li>
+                          <label
+                            ><input disabled id="step-44" type="checkbox" />Das
+                            Unter-Kontrollkästchen Nr. 11.3 bezieht sich auf
+                            Bild Nr. 44
+                          </label>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+                <div class="list">
+                  <ul>
+                    <li>
+                      <input disabled type="checkbox" id="step-45" />
+                      <label for="option"
+                        >Das Kontrollkästchen Nr. 12 bezieht sich auf Bild Nr.
+                        45
+                      </label>
+                      <ul>
+                        <li>
+                          <label
+                            ><input id="step-46" disabled type="checkbox" />Das
+                            Unter-Kontrollkästchen Nr. 12.1 bezieht sich auf
+                            Bild Nr. 46
+                          </label>
+                        </li>
+                        <li>
+                          <label
+                            ><input id="step-47" disabled type="checkbox" />Das
+                            Unter-Kontrollkästchen Nr. 12.2 bezieht sich auf
+                            Bild Nr. 47
+                          </label>
+                        </li>
+                        <li>
+                          <label
+                            ><input id="step-48" disabled type="checkbox" />Das
+                            Unter-Kontrollkästchen Nr. 12.3 bezieht sich auf
+                            Bild Nr. 48
+                          </label>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+                <div class="list">
+                  <ul>
+                    <li>
+                      <input id="step-49" disabled type="checkbox" />
+                      <label for="option"
+                        >Das Kontrollkästchen Nr. 13 bezieht sich auf Bild Nr.
+                        49</label
+                      >
+                      <ul>
+                        <li>
+                          <label
+                            ><input id="step-50" disabled type="checkbox" />Das
+                            Unter-Kontrollkästchen Nr. 13.1 bezieht sich auf
+                            Bild Nr. 50
+                          </label>
+                        </li>
+                        <li>
+                          <label
+                            ><input id="step-51" disabled type="checkbox" />Das
+                            Unter-Kontrollkästchen Nr. 13.2 bezieht sich auf
+                            Bild Nr. 51
+                          </label>
+                        </li>
+                        <li>
+                          <label
+                            ><input id="step-52" disabled type="checkbox" />
+                            Das Unter-Kontrollkästchen Nr. 13.3 bezieht sich auf
+                            Bild Nr. 52
+                          </label>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+                <div class="list">
+                  <ul>
+                    <li>
+                      <input id="step-53" disabled type="checkbox" />
+                      <label for="option"
+                        >Das Kontrollkästchen Nr. 14 bezieht sich auf Bild Nr.
+                        53</label
+                      >
+                      <ul>
+                        <li>
+                          <label
+                            ><input id="step-54" disabled type="checkbox" />Das
+                            Unter-Kontrollkästchen Nr. 14.1 bezieht sich auf
+                            Bild Nr. 54
+                          </label>
+                        </li>
+                        <li>
+                          <label
+                            ><input id="step-55" disabled type="checkbox" />
+                            Das Unter-Kontrollkästchen Nr. 14.2 bezieht sich auf
+                            Bild Nr. 55
+                          </label>
+                        </li>
+                        <li>
+                          <label
+                            ><input id="step-56" disabled type="checkbox" />
+                            Das Unter-Kontrollkästchen Nr. 14.3 bezieht sich auf
+                            Bild Nr. 56
+                          </label>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+                <div class="list">
+                  <ul>
+                    <li>
+                      <input id="step-57" disabled type="checkbox" />
+                      <label for="option">
+                        Das Kontrollkästchen Nr. 15 bezieht sich auf Bild Nr.
+                        57</label
+                      >
+                      <ul>
+                        <li>
+                          <label
+                            ><input id="step-58" disabled type="checkbox" />Das
+                            Unter-Kontrollkästchen Nr. 15.1 bezieht sich auf
+                            Bild Nr. 58
+                          </label>
+                        </li>
+                        <li>
+                          <label
+                            ><input id="step-59" disabled type="checkbox" />Das
+                            Unter-Kontrollkästchen Nr. 15.2 bezieht sich auf
+                            Bild Nr. 59
+                          </label>
+                        </li>
+                        <li>
+                          <label
+                            ><input id="step-60" disabled type="checkbox" />
+                            Das Unter-Kontrollkästchen Nr. 15.3 bezieht sich auf
+                            Bild Nr. 60
+                          </label>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+                <div class="list">
+                  <ul>
+                    <li>
+                      <input id="step-61" disabled type="checkbox" />
+                      <label for="option">
+                        Das Kontrollkästchen Nr. 16 bezieht sich auf Bild Nr.
+                        61</label
+                      >
+                      <ul>
+                        <li>
+                          <label
+                            ><input id="step-62" disabled type="checkbox" />Das
+                            Unter-Kontrollkästchen Nr. 16.1 bezieht sich auf
+                            Bild Nr. 62
+                          </label>
+                        </li>
+                        <li>
+                          <label
+                            ><input id="step-63" disabled type="checkbox" />
+                            Das Unter-Kontrollkästchen Nr. 16.3 bezieht sich auf
+                            Bild Nr. 64
+                          </label>
+                        </li>
+                        <li>
+                          <label
+                            ><input
+                              id="step-64"
+                              disabled
+                              type="checkbox"
+                            />Sub-checkbox #16.3 refers to picture#64
+                          </label>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+                <div class="list">
+                  <ul>
+                    <li>
+                      <input id="step-65" disabled type="checkbox" />
+                      <label for="option">
+                        Das Kontrollkästchen Nr. 17 bezieht sich auf Bild Nr.
+                        65</label
+                      >
+                      <ul>
+                        <li>
+                          <label
+                            ><input id="step-66" disabled type="checkbox" />
+                            Das Unter-Kontrollkästchen Nr. 17.1 bezieht sich auf
+                            Bild Nr. 66
+                          </label>
+                        </li>
+                        <li>
+                          <label
+                            ><input id="step-67" disabled type="checkbox" />Das
+                            Unter-Kontrollkästchen Nr. 17.2 bezieht sich auf
+                            Bild Nr. 67
+                          </label>
+                        </li>
+                        <li>
+                          <label
+                            ><input id="step-68" disabled type="checkbox" />
+                            Das Unter-Kontrollkästchen Nr. 17.3 bezieht sich auf
+                            Bild Nr. 68
+                          </label>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+                <div class="list">
+                  <ul>
+                    <li>
+                      <input id="step-69" disabled type="checkbox" />
+                      <label for="option"
+                        >Das Kontrollkästchen Nr. 18 bezieht sich auf Bild Nr.
+                        69</label
+                      >
+                      <ul>
+                        <li>
+                          <label
+                            ><input id="step-70" disabled type="checkbox" />
+                            Das Unter-Kontrollkästchen Nr. 18.1 bezieht sich auf
+                            Bild Nr. 70
+                          </label>
+                        </li>
+                        <li>
+                          <label
+                            ><input id="step-71" disabled type="checkbox" />
+                            Das Unter-Kontrollkästchen Nr. 18.2 bezieht sich auf
+                            Bild Nr. 71
+                          </label>
+                        </li>
+                        <li>
+                          <label
+                            ><input id="step-72" disabled type="checkbox" />Das
+                            Unter-Kontrollkästchen Nr. 18.3 bezieht sich auf
+                            Bild Nr. 72
+                          </label>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+                <div class="list">
+                  <ul>
+                    <li>
+                      <input id="step-73" disabled type="checkbox" />
+                      <label for="option">
+                        Das Kontrollkästchen Nr. 19 bezieht sich auf Bild Nr.
+                        73</label
+                      >
+                      <ul>
+                        <li>
+                          <label
+                            ><input id="step-74" disabled type="checkbox" />Das
+                            Unter-Kontrollkästchen Nr. 19.1 bezieht sich auf
+                            Bild Nr. 74
+                          </label>
+                        </li>
+                        <li>
+                          <label
+                            ><input id="step-75" disabled type="checkbox" />Das
+                            Unter-Kontrollkästchen Nr. 19.2 bezieht sich auf
+                            Bild Nr. 75
+                          </label>
+                        </li>
+                        <li>
+                          <label
+                            ><input id="step-76" disabled type="checkbox" />Das
+                            Unter-Kontrollkästchen Nr. 19.3 bezieht sich auf
+                            Bild Nr. 76
+                          </label>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+                <div class="list">
+                  <ul>
+                    <li>
+                      <input id="step-77" disabled type="checkbox" />
+                      <label for="option">
+                        Das Kontrollkästchen Nr. 20 bezieht sich auf Bild Nr.
+                        77</label
+                      >
+                      <ul>
+                        <li>
+                          <label
+                            ><input id="step-78" disabled type="checkbox" />
+                            Das Unter-Kontrollkästchen Nr. 20.1 bezieht sich auf
+                            Bild Nr. 78
+                          </label>
+                        </li>
+                        <li>
+                          <label
+                            ><input id="step-79" disabled type="checkbox" />Das
+                            Unter-Kontrollkästchen Nr. 20.2 bezieht sich auf
+                            Bild Nr. 79
+                          </label>
+                        </li>
+                        <li>
+                          <label
+                            ><input id="step-80" disabled type="checkbox" />Das
+                            Unter-Kontrollkästchen Nr. 20.3 bezieht sich auf
+                            Bild Nr. 80
+                          </label>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+                <div class="list">
+                  <ul>
+                    <li>
+                      <input id="step-81" disabled type="checkbox" />
+                      <label for="option">
+                        Das Kontrollkästchen Nr. 21 bezieht sich auf Bild Nr.
+                        81</label
+                      >
+                      <ul>
+                        <li>
+                          <label
+                            ><input id="step-82" disabled type="checkbox" />Das
+                            Unter-Kontrollkästchen Nr. 21.1 bezieht sich auf
+                            Bild Nr. 82
+                          </label>
+                        </li>
+                        <li>
+                          <label
+                            ><input id="step-83" disabled type="checkbox" />
+                            Das Unter-Kontrollkästchen Nr. 21.2 bezieht sich auf
+                            Bild Nr. 83
+                          </label>
+                        </li>
+                        <li>
+                          <label
+                            ><input id="step-84" disabled type="checkbox" />
+                            Das Unter-Kontrollkästchen Nr. 21.3 bezieht sich auf
+                            Bild Nr. 84
+                          </label>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+                <div class="list">
+                  <ul>
+                    <li>
+                      <input id="step-85" disabled type="checkbox" />
+                      <label for="option">
+                        Das Kontrollkästchen Nr. 22 bezieht sich auf Bild Nr.
+                        85</label
+                      >
+                      <ul>
+                        <li>
+                          <label
+                            ><input id="step-86" disabled type="checkbox" />
+                            Das Unter-Kontrollkästchen Nr. 22.1 bezieht sich auf
+                            Bild Nr. 86
+                          </label>
+                        </li>
+                        <li>
+                          <label
+                            ><input id="step-87" disabled type="checkbox" />
+                            Das Unter-Kontrollkästchen Nr. 22.2 bezieht sich auf
+                            Bild Nr. 87
+                          </label>
+                        </li>
+                        <li>
+                          <label
+                            ><input id="step-88" disabled type="checkbox" />
+                            Das Unter-Kontrollkästchen Nr. 22.3 bezieht sich auf
+                            Bild Nr. 88
+                          </label>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+                <div class="list">
+                  <ul>
+                    <li>
+                      <input id="step-89" disabled type="checkbox" />
+                      <label for="option"
+                        >Das Kontrollkästchen Nr. 23 bezieht sich auf Bild Nr.
+                        89</label
+                      >
+                      <ul>
+                        <li>
+                          <label
+                            ><input id="step-90" disabled type="checkbox" />Das
+                            Unter-Kontrollkästchen Nr. 23.1 bezieht sich auf
+                            Bild Nr. 90
+                          </label>
+                        </li>
+                        <li>
+                          <label
+                            ><input
+                              id="step-91"
+                              disabled
+                              type="checkbox"
+                            />Sub-checkbox #23.2 refers to picture#91
+                          </label>
+                        </li>
+                        <li>
+                          <label
+                            ><input id="step-92" disabled type="checkbox" />
+                            Das Kontrollkästchen Nr. 24 bezieht sich auf Bild
+                            Nr. 93
+                          </label>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+                <div class="list">
+                  <ul>
+                    <li>
+                      <input id="step-93" disabled type="checkbox" />
+                      <label for="option"
+                        >Checkbox #24 refers to picture#93</label
+                      >
+                      <ul>
+                        <li>
+                          <label
+                            ><input id="step-94" disabled type="checkbox" />
+                            Das Unter-Kontrollkästchen Nr. 24.1 bezieht sich auf
+                            Bild Nr. 94
+                          </label>
+                        </li>
+                        <li>
+                          <label
+                            ><input id="step-95" disabled type="checkbox" />Das
+                            Unter-Kontrollkästchen Nr. 24.2 bezieht sich auf
+                            Bild Nr. 95
+                          </label>
+                        </li>
+                        <li>
+                          <label
+                            ><input id="step-96" disabled type="checkbox" />
+                            Das Unter-Kontrollkästchen Nr. 24.3 bezieht sich auf
+                            Bild Nr. 9696
+                          </label>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+                <div class="list">
+                  <ul>
+                    <li>
+                      <input id="step-97" disabled type="checkbox" />
+                      <label for="option"
+                        >Das Kontrollkästchen Nr. 25 bezieht sich auf Bild Nr.
+                        97</label
+                      >
+                      <ul>
+                        <li>
+                          <label
+                            ><input id="step-98" disabled type="checkbox" />
+                            Das Unter-Kontrollkästchen Nr. 25.1 bezieht sich auf
+                            Bild Nr. 98
+                          </label>
+                        </li>
+                        <li>
+                          <label
+                            ><input id="step-99" disabled type="checkbox" />Das
+                            Unter-Kontrollkästchen Nr. 25.2 bezieht sich auf
+                            Bild Nr. 99
+                          </label>
+                        </li>
+                        <li>
+                          <label
+                            ><input id="step-100" disabled type="checkbox" />Das
+                            Unter-Kontrollkästchen Nr. 25.3 bezieht sich auf
+                            Bild Nr. 100
+                          </label>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 mt-md-5">
+          <div class="d-flex justify-content-between">
+            <div class="text-center">
+              <button class="btn btn-secondary btn-lg text-white " btn-play>
+                Video Abspielen
+              </button>
+            </div>
+            <div class="text-center">
+              <button class="btn btn-primary btn-lg text-white " btn-next>
+                Nächster Arbeitsschritt
+              </button>
+              <a
+                class="btn btn-primary btn-lg text-white d-none "
+                btn-submit
+                href="congrats.html"
+              >
+                Einreichen</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- jQuery first, then Owl.Carousel.js then Popper.js, then Bootstrap JS -->
+    <script src="../assets/js/jquery-3.3.1.slim.min.js"></script>
+    <script src="../assets/js/owl.carousel.min.js"></script>
+    <script src="../assets/js/popper.min.js"></script>
+    <script src="../assets/js/bootstrap.min.js"></script>
+    <script src="../assets/js/script.js"></script>
+
+    <script>
+      $(".carousel").carousel({
+        interval: 2000
+      });
+    </script>
+  </body>
+</html>

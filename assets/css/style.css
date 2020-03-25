@@ -56,3 +56,16 @@ body {
 .focus {
   border: 2px solid #007bff;
 }
+.scrollView {
+  border: 2px solid #ccc;
+  width: 500px;
+  height: 300px;
+  overflow-y: scroll;
+}
+
+ul {
+  list-style: none;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  padding-inline-start: 40px;
+}

@@ -1,0 +1,1137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Assembly Station - Steps</title>
+    <!-- Required meta tags -->
+    <meta name="description" content="Come shop the world at Mall Hopper" />
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css" />
+
+    <!-- Font Awesome -->
+    <link href="../assets/css/fontawesome/all.min.css" rel="stylesheet" />
+    <!--load all styles -->
+    <link href="../assets/css/fontawesome/brands.min.css" rel="stylesheet" />
+    <!--load all styles -->
+
+    <!-- Owl Carousel -->
+    <link
+      rel="stylesheet"
+      href="../assets/css/owlcarousel/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="../assets/css/owlcarousel/owl.theme.default.min.css"
+    />
+
+    <!-- Stylesheet CSS -->
+    <link rel="stylesheet" href="../assets/css/style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light container-fluid">
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarTogglerDemo03"
+        aria-controls="navbarTogglerDemo03"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand" href="index.html"
+        >Assembly Station<span class="sr-only">(current)</span></a
+      >
+    </nav>
+    <div class="modal-section">
+      <div class="modal" tabindex="-1" role="dialog" id="play-vid-modal">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title ">Video Guide</h5>
+              <button
+                type="button"
+                class="close"
+                data-dismiss="modal"
+                aria-label="Close"
+              >
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body" id="videoDiv">
+              <video class="img-fluid" controls>
+                <source src="../assets/vid/1.mp4" type="video/mp4" id="video" />
+                Your browser does not support the video tag.
+              </video>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section class="container py-3">
+      <div id="steps-bar" class="progress-steps">
+        <div class="mr-3 ">Steps</div>
+        <div id="barStep-1" class="step active">
+          <p>1</p>
+        </div>
+        <div id="barStep-11" class="step">
+          <p>2</p>
+        </div>
+        <div id="barStep-21" class="step">
+          <p>3</p>
+        </div>
+        <div id="barStep-31" class="step">
+          <p>4</p>
+        </div>
+        <div id="barStep-41" class="step">
+          <p>5</p>
+        </div>
+        <div id="barStep-51" class="step">
+          <p>6</p>
+        </div>
+        <div id="barStep-61" class="step">
+          <p>7</p>
+        </div>
+        <div id="barStep-71" class="step">
+          <p>8</p>
+        </div>
+        <div id="barStep-81" class="step">
+          <p>9</p>
+        </div>
+        <div id="barStep-91" class="step">
+          <p>10</p>
+        </div>
+      </div>
+      <div class="row">
+        <div id="steps-container" step="1">
+          <div class="row">
+            <div class="col-3 mb-3">
+              <div>
+                <img id="image" src="../assets/img/1.png" alt="" class="img-fluid" />
+              </div>
+            </div>
+            <div class="col-md-9 mb-3">
+              <div id="scrollView" class="scrollView">
+                <div class="list">
+                  <ul>
+                    <li>
+                      <input unchecked disabled type="checkbox" id="step-1" />
+                      <label for="option"
+                        >Checkbox #1 refers to picture#1
+                      </label>
+                      <ul>
+                        <li>
+                          <label
+                            ><input
+                              disabled
+                              id="step-2"
+                              type="checkbox"
+                            />Sub-checkbox #1.1 refers to picture#2
+                          </label>
+                        </li>
+                        <li>
+                          <label
+                            ><input
+                              disabled
+                              id="step-3"
+                              type="checkbox"
+                            />Sub-checkbox #1.2 refers to picture#3
+                          </label>
+                        </li>
+                        <li>
+                          <label
+                            ><input
+                              disabled
+                              id="step-4"
+                              type="checkbox"
+                            />Sub-checkbox #1.3 refers to picture#4
+                          </label>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+                <div class="list">
+                  <ul>
+                    <li>
+                      <input disabled type="checkbox" id="step-5" />
+                      <label for="option"
+                        >Checkbox #2 refers to picture#5
+                      </label>
+                      <ul>
+                        <li>
+                          <label
+                            ><input
+                              id="step-6"
+                              disabled
+                              type="checkbox"
+                            />Sub-checkbox #2.1 refers to picture#6
+                          </label>
+                        </li>
+                        <li>
+                          <label
+                            ><input
+                              id="step-7"
+                              disabled
+                              type="checkbox"
+                            />Sub-checkbox #2.2 refers to picture#7
+                          </label>
+                        </li>
+                        <li>
+                          <label
+                            ><input
+                              id="step-8"
+                              disabled
+                              type="checkbox"
+                            />Sub-checkbox #2.3 refers to picture#8
+                          </label>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+                <div class="list">
+                  <ul>
+                    <li>
+                      <input id="step-9" disabled type="checkbox" />
+                      <label for="option"
+                        >Checkbox #3 refers to picture#9</label
+                      >
+                      <ul>
+                        <li>
+                          <label
+                            ><input
+                              id="step-10"
+                              disabled
+                              type="checkbox"
+                            />Sub-checkbox #3.1 refers to picture#10
+                          </label>
+                        </li>
+                        <li>
+                          <label
+                            ><input
+                              id="step-11"
+                              disabled
+                              type="checkbox"
+                            />Sub-checkbox #3.2 refers to picture#11
+                          </label>
+                        </li>
+                        <li>
+                          <label
+                            ><input
+                              id="step-12"
+                              disabled
+                              type="checkbox"
+                            />Sub-checkbox #3.3 refers to picture#12
+                          </label>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+                <div class="list">
+                  <ul>
+                    <li>
+                      <input id="step-13" disabled type="checkbox" />
+                      <label for="option"
+                        >Checkbox #4 refers to picture#13</label
+                      >
+                      <ul>
+                        <li>
+                          <label
+                            ><input
+                              id="step-14"
+                              disabled
+                              type="checkbox"
+                            />Sub-checkbox #4.1 refers to picture#14
+                          </label>
+                        </li>
+                        <li>
+                          <label
+                            ><input
+                              id="step-15"
+                              disabled
+                              type="checkbox"
+                            />Sub-checkbox #4.2 refers to picture#15
+                          </label>
+                        </li>
+                        <li>
+                          <label
+                            ><input
+                              id="step-16"
+                              disabled
+                              type="checkbox"
+                            />Sub-checkbox #4.3 refers to picture#16
+                          </label>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+                <div class="list">
+                  <ul>
+                    <li>
+                      <input id="step-17" disabled type="checkbox" />
+                      <label for="option"
+                        >Checkbox #5 refers to picture#17</label
+                      >
+                      <ul>
+                        <li>
+                          <label
+                            ><input
+                              id="step-18"
+                              disabled
+                              type="checkbox"
+                            />Sub-checkbox #5.1 refers to picture#18
+                          </label>
+                        </li>
+                        <li>
+                          <label
+                            ><input
+                              id="step-19"
+                              disabled
+                              type="checkbox"
+                            />Sub-checkbox #5.2 refers to picture#19
+                          </label>
+                        </li>
+                        <li>
+                          <label
+                            ><input
+                              id="step-20"
+                              disabled
+                              type="checkbox"
+                            />Sub-checkbox #5.3 refers to picture#20
+                          </label>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+                <div class="list">
+                  <ul>
+                    <li>
+                      <input id="step-21" disabled type="checkbox" />
+                      <label for="option"
+                        >Checkbox #6 refers to picture#21</label
+                      >
+                      <ul>
+                        <li>
+                          <label
+                            ><input
+                              id="step-22"
+                              disabled
+                              type="checkbox"
+                            />Sub-checkbox #6.1 refers to picture#22
+                          </label>
+                        </li>
+                        <li>
+                          <label
+                            ><input
+                              id="step-23"
+                              disabled
+                              type="checkbox"
+                            />Sub-checkbox #6.2 refers to picture#23
+                          </label>
+                        </li>
+                        <li>
+                          <label
+                            ><input
+                              id="step-24"
+                              disabled
+                              type="checkbox"
+                            />Sub-checkbox #6.3 refers to picture#24
+                          </label>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+                <div class="list">
+                  <ul>
+                    <li>
+                      <input id="step-25" disabled type="checkbox" />
+                      <label for="option"
+                        >Checkbox #7 refers to picture#25</label
+                      >
+                      <ul>
+                        <li>
+                          <label
+                            ><input
+                              id="step-26"
+                              disabled
+                              type="checkbox"
+                            />Sub-checkbox #7.1 refers to picture#26
+                          </label>
+                        </li>
+                        <li>
+                          <label
+                            ><input
+                              id="step-27"
+                              disabled
+                              type="checkbox"
+                            />Sub-checkbox #7.2 refers to picture#27
+                          </label>
+                        </li>
+                        <li>
+                          <label
+                            ><input
+                              id="step-28"
+                              disabled
+                              type="checkbox"
+                            />Sub-checkbox #7.3 refers to picture#28
+                          </label>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+                <div class="list">
+                  <ul>
+                    <li>
+                      <input id="step-29" disabled type="checkbox" />
+                      <label for="option"
+                        >Checkbox #8 refers to picture#29</label
+                      >
+                      <ul>
+                        <li>
+                          <label
+                            ><input
+                              id="step-30"
+                              disabled
+                              type="checkbox"
+                            />Sub-checkbox #8.1 refers to picture#30
+                          </label>
+                        </li>
+                        <li>
+                          <label
+                            ><input
+                              id="step-31"
+                              disabled
+                              type="checkbox"
+                            />Sub-checkbox #8.2 refers to picture#31
+                          </label>
+                        </li>
+                        <li>
+                          <label
+                            ><input
+                              id="step-32"
+                              disabled
+                              type="checkbox"
+                            />Sub-checkbox #8.3 refers to picture#32
+                          </label>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+                <div class="list">
+                  <ul>
+                    <li>
+                      <input id="step-33" disabled type="checkbox" />
+                      <label for="option"
+                        >Checkbox #9 refers to picture#33</label
+                      >
+                      <ul>
+                        <li>
+                          <label
+                            ><input
+                              id="step-34"
+                              disabled
+                              type="checkbox"
+                            />Sub-checkbox #9.1 refers to picture#34
+                          </label>
+                        </li>
+                        <li>
+                          <label
+                            ><input
+                              id="step-35"
+                              disabled
+                              type="checkbox"
+                            />Sub-checkbox #9.2 refers to picture#35
+                          </label>
+                        </li>
+                        <li>
+                          <label
+                            ><input
+                              id="step-36"
+                              disabled
+                              type="checkbox"
+                            />Sub-checkbox #9.3 refers to picture#36
+                          </label>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+                <div class="list">
+                  <ul>
+                    <li>
+                      <input id="step-37" disabled type="checkbox" />
+                      <label for="option"
+                        >Checkbox #10 refers to picture#37</label
+                      >
+                      <ul>
+                        <li>
+                          <label
+                            ><input
+                              id="step-38"
+                              disabled
+                              type="checkbox"
+                            />Sub-checkbox #10.1 refers to picture#38
+                          </label>
+                        </li>
+                        <li>
+                          <label
+                            ><input
+                              id="step-39"
+                              disabled
+                              type="checkbox"
+                            />Sub-checkbox #10.2 refers to picture#39
+                          </label>
+                        </li>
+                        <li>
+                          <label
+                            ><input
+                              id="step-40"
+                              disabled
+                              type="checkbox"
+                            />Sub-checkbox #10.3 refers to picture#40
+                          </label>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+                <div class="list">
+                  <ul>
+                    <li>
+                      <input unchecked disabled type="checkbox" id="step-41" />
+                      <label for="option"
+                        >Checkbox #11 refers to picture#41
+                      </label>
+                      <ul>
+                        <li>
+                          <label
+                            ><input
+                              disabled
+                              id="step-42"
+                              type="checkbox"
+                            />Sub-checkbox #11.1 refers to picture#42
+                          </label>
+                        </li>
+                        <li>
+                          <label
+                            ><input
+                              disabled
+                              id="step-43"
+                              type="checkbox"
+                            />Sub-checkbox #11.2 refers to picture#43
+                          </label>
+                        </li>
+                        <li>
+                          <label
+                            ><input
+                              disabled
+                              id="step-44"
+                              type="checkbox"
+                            />Sub-checkbox #11.3 refers to picture#44
+                          </label>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+                <div class="list">
+                  <ul>
+                    <li>
+                      <input disabled type="checkbox" id="step-45" />
+                      <label for="option"
+                        >Checkbox #12 refers to picture#45
+                      </label>
+                      <ul>
+                        <li>
+                          <label
+                            ><input
+                              id="step-46"
+                              disabled
+                              type="checkbox"
+                            />Sub-checkbox #12.1 refers to picture#46
+                          </label>
+                        </li>
+                        <li>
+                          <label
+                            ><input
+                              id="step-47"
+                              disabled
+                              type="checkbox"
+                            />Sub-checkbox #12.2 refers to picture#47
+                          </label>
+                        </li>
+                        <li>
+                          <label
+                            ><input
+                              id="step-48"
+                              disabled
+                              type="checkbox"
+                            />Sub-checkbox #12.3 refers to picture#48
+                          </label>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+                <div class="list">
+                  <ul>
+                    <li>
+                      <input id="step-49" disabled type="checkbox" />
+                      <label for="option"
+                        >Checkbox #13 refers to picture#49</label
+                      >
+                      <ul>
+                        <li>
+                          <label
+                            ><input
+                              id="step-50"
+                              disabled
+                              type="checkbox"
+                            />Sub-checkbox #13.1 refers to picture#50
+                          </label>
+                        </li>
+                        <li>
+                          <label
+                            ><input
+                              id="step-51"
+                              disabled
+                              type="checkbox"
+                            />Sub-checkbox #13.2 refers to picture#51
+                          </label>
+                        </li>
+                        <li>
+                          <label
+                            ><input
+                              id="step-52"
+                              disabled
+                              type="checkbox"
+                            />Sub-checkbox #13.3 refers to picture#52
+                          </label>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+                <div class="list">
+                  <ul>
+                    <li>
+                      <input id="step-53" disabled type="checkbox" />
+                      <label for="option"
+                        >Checkbox #14 refers to picture#53</label
+                      >
+                      <ul>
+                        <li>
+                          <label
+                            ><input
+                              id="step-54"
+                              disabled
+                              type="checkbox"
+                            />Sub-checkbox #14.1 refers to picture#54
+                          </label>
+                        </li>
+                        <li>
+                          <label
+                            ><input
+                              id="step-55"
+                              disabled
+                              type="checkbox"
+                            />Sub-checkbox #14.2 refers to picture#55
+                          </label>
+                        </li>
+                        <li>
+                          <label
+                            ><input
+                              id="step-56"
+                              disabled
+                              type="checkbox"
+                            />Sub-checkbox #14.3 refers to picture#56
+                          </label>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+                <div class="list">
+                  <ul>
+                    <li>
+                      <input id="step-57" disabled type="checkbox" />
+                      <label for="option"
+                        >Checkbox #15 refers to picture#57</label
+                      >
+                      <ul>
+                        <li>
+                          <label
+                            ><input
+                              id="step-58"
+                              disabled
+                              type="checkbox"
+                            />Sub-checkbox #15.1 refers to picture#58
+                          </label>
+                        </li>
+                        <li>
+                          <label
+                            ><input
+                              id="step-59"
+                              disabled
+                              type="checkbox"
+                            />Sub-checkbox #15.2 refers to picture#59
+                          </label>
+                        </li>
+                        <li>
+                          <label
+                            ><input
+                              id="step-60"
+                              disabled
+                              type="checkbox"
+                            />Sub-checkbox #15.3 refers to picture#60
+                          </label>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+                <div class="list">
+                  <ul>
+                    <li>
+                      <input id="step-61" disabled type="checkbox" />
+                      <label for="option"
+                        >Checkbox #16 refers to picture#61</label
+                      >
+                      <ul>
+                        <li>
+                          <label
+                            ><input
+                              id="step-62"
+                              disabled
+                              type="checkbox"
+                            />Sub-checkbox #16.1 refers to picture#62
+                          </label>
+                        </li>
+                        <li>
+                          <label
+                            ><input
+                              id="step-63"
+                              disabled
+                              type="checkbox"
+                            />Sub-checkbox #16.2 refers to picture#63
+                          </label>
+                        </li>
+                        <li>
+                          <label
+                            ><input
+                              id="step-64"
+                              disabled
+                              type="checkbox"
+                            />Sub-checkbox #16.3 refers to picture#64
+                          </label>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+                <div class="list">
+                  <ul>
+                    <li>
+                      <input id="step-65" disabled type="checkbox" />
+                      <label for="option"
+                        >Checkbox #17 refers to picture#65</label
+                      >
+                      <ul>
+                        <li>
+                          <label
+                            ><input
+                              id="step-66"
+                              disabled
+                              type="checkbox"
+                            />Sub-checkbox #17.1 refers to picture#66
+                          </label>
+                        </li>
+                        <li>
+                          <label
+                            ><input
+                              id="step-67"
+                              disabled
+                              type="checkbox"
+                            />Sub-checkbox #17.2 refers to picture#67
+                          </label>
+                        </li>
+                        <li>
+                          <label
+                            ><input
+                              id="step-68"
+                              disabled
+                              type="checkbox"
+                            />Sub-checkbox #17.3 refers to picture#68
+                          </label>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+                <div class="list">
+                  <ul>
+                    <li>
+                      <input id="step-69" disabled type="checkbox" />
+                      <label for="option"
+                        >Checkbox #18 refers to picture#69</label
+                      >
+                      <ul>
+                        <li>
+                          <label
+                            ><input
+                              id="step-70"
+                              disabled
+                              type="checkbox"
+                            />Sub-checkbox #18.1 refers to picture#70
+                          </label>
+                        </li>
+                        <li>
+                          <label
+                            ><input
+                              id="step-71"
+                              disabled
+                              type="checkbox"
+                            />Sub-checkbox #18.2 refers to picture#71
+                          </label>
+                        </li>
+                        <li>
+                          <label
+                            ><input
+                              id="step-72"
+                              disabled
+                              type="checkbox"
+                            />Sub-checkbox #18.3 refers to picture#72
+                          </label>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+                <div class="list">
+                  <ul>
+                    <li>
+                      <input id="step-73" disabled type="checkbox" />
+                      <label for="option"
+                        >Checkbox #19 refers to picture#73</label
+                      >
+                      <ul>
+                        <li>
+                          <label
+                            ><input
+                              id="step-74"
+                              disabled
+                              type="checkbox"
+                            />Sub-checkbox #19.1 refers to picture#74
+                          </label>
+                        </li>
+                        <li>
+                          <label
+                            ><input
+                              id="step-75"
+                              disabled
+                              type="checkbox"
+                            />Sub-checkbox #19.2 refers to picture#75
+                          </label>
+                        </li>
+                        <li>
+                          <label
+                            ><input
+                              id="step-76"
+                              disabled
+                              type="checkbox"
+                            />Sub-checkbox #19.3 refers to picture#76
+                          </label>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+                <div class="list">
+                  <ul>
+                    <li>
+                      <input id="step-77" disabled type="checkbox" />
+                      <label for="option"
+                        >Checkbox #20 refers to picture#77</label
+                      >
+                      <ul>
+                        <li>
+                          <label
+                            ><input
+                              id="step-78"
+                              disabled
+                              type="checkbox"
+                            />Sub-checkbox #20.1 refers to picture#78
+                          </label>
+                        </li>
+                        <li>
+                          <label
+                            ><input
+                              id="step-79"
+                              disabled
+                              type="checkbox"
+                            />Sub-checkbox #20.2 refers to picture#79
+                          </label>
+                        </li>
+                        <li>
+                          <label
+                            ><input
+                              id="step-80"
+                              disabled
+                              type="checkbox"
+                            />Sub-checkbox #20.3 refers to picture#80
+                          </label>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+                <div class="list">
+                  <ul>
+                    <li>
+                      <input id="step-81" disabled type="checkbox" />
+                      <label for="option"
+                        >Checkbox #21 refers to picture#81</label
+                      >
+                      <ul>
+                        <li>
+                          <label
+                            ><input
+                              id="step-82"
+                              disabled
+                              type="checkbox"
+                            />Sub-checkbox #21.1 refers to picture#82
+                          </label>
+                        </li>
+                        <li>
+                          <label
+                            ><input
+                              id="step-83"
+                              disabled
+                              type="checkbox"
+                            />Sub-checkbox #21.2 refers to picture#83
+                          </label>
+                        </li>
+                        <li>
+                          <label
+                            ><input
+                              id="step-84"
+                              disabled
+                              type="checkbox"
+                            />Sub-checkbox #21.3 refers to picture#84
+                          </label>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+                <div class="list">
+                  <ul>
+                    <li>
+                      <input id="step-85" disabled type="checkbox" />
+                      <label for="option"
+                        >Checkbox #22 refers to picture#85</label
+                      >
+                      <ul>
+                        <li>
+                          <label
+                            ><input
+                              id="step-86"
+                              disabled
+                              type="checkbox"
+                            />Sub-checkbox #22.1 refers to picture#86
+                          </label>
+                        </li>
+                        <li>
+                          <label
+                            ><input
+                              id="step-87"
+                              disabled
+                              type="checkbox"
+                            />Sub-checkbox #22.2 refers to picture#87
+                          </label>
+                        </li>
+                        <li>
+                          <label
+                            ><input
+                              id="step-88"
+                              disabled
+                              type="checkbox"
+                            />Sub-checkbox #22.3 refers to picture#88
+                          </label>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+                <div class="list">
+                  <ul>
+                    <li>
+                      <input id="step-89" disabled type="checkbox" />
+                      <label for="option"
+                        >Checkbox #23 refers to picture#89</label
+                      >
+                      <ul>
+                        <li>
+                          <label
+                            ><input
+                              id="step-90"
+                              disabled
+                              type="checkbox"
+                            />Sub-checkbox #23.1 refers to picture#90
+                          </label>
+                        </li>
+                        <li>
+                          <label
+                            ><input
+                              id="step-91"
+                              disabled
+                              type="checkbox"
+                            />Sub-checkbox #23.2 refers to picture#91
+                          </label>
+                        </li>
+                        <li>
+                          <label
+                            ><input
+                              id="step-92"
+                              disabled
+                              type="checkbox"
+                            />Sub-checkbox #23.3 refers to picture#92
+                          </label>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+                <div class="list">
+                  <ul>
+                    <li>
+                      <input id="step-93" disabled type="checkbox" />
+                      <label for="option"
+                        >Checkbox #24 refers to picture#93</label
+                      >
+                      <ul>
+                        <li>
+                          <label
+                            ><input
+                              id="step-94"
+                              disabled
+                              type="checkbox"
+                            />Sub-checkbox #24.1 refers to picture#94
+                          </label>
+                        </li>
+                        <li>
+                          <label
+                            ><input
+                              id="step-95"
+                              disabled
+                              type="checkbox"
+                            />Sub-checkbox #24.2 refers to picture#95
+                          </label>
+                        </li>
+                        <li>
+                          <label
+                            ><input
+                              id="step-96"
+                              disabled
+                              type="checkbox"
+                            />Sub-checkbox #24.3 refers to picture#96
+                          </label>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+                <div class="list">
+                  <ul>
+                    <li>
+                      <input id="step-97" disabled type="checkbox" />
+                      <label for="option"
+                        >Checkbox #25 refers to picture#97</label
+                      >
+                      <ul>
+                        <li>
+                          <label
+                            ><input
+                              id="step-98"
+                              disabled
+                              type="checkbox"
+                            />Sub-checkbox #25.1 refers to picture#98
+                          </label>
+                        </li>
+                        <li>
+                          <label
+                            ><input
+                              id="step-99"
+                              disabled
+                              type="checkbox"
+                            />Sub-checkbox #25.2 refers to picture#99
+                          </label>
+                        </li>
+                        <li>
+                          <label
+                            ><input
+                              id="step-100"
+                              disabled
+                              type="checkbox"
+                            />Sub-checkbox #25.3 refers to picture#100
+                          </label>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 mt-md-5">
+          <div class="d-flex justify-content-between">
+            <div class="text-center">
+              <button class="btn btn-secondary btn-lg text-white " btn-play>
+                Play Video
+              </button>
+            </div>
+            <div class="text-center">
+              <button class="btn btn-primary btn-lg text-white " btn-next>
+                Next Working-Step
+              </button>
+              <a
+                class="btn btn-primary btn-lg text-white d-none "
+                btn-submit
+                href="congrats.html"
+                >Submit</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- jQuery first, then Owl.Carousel.js then Popper.js, then Bootstrap JS -->
+    <script src="../assets/js/jquery-3.3.1.slim.min.js"></script>
+    <script src="../assets/js/owl.carousel.min.js"></script>
+    <script src="../assets/js/popper.min.js"></script>
+    <script src="../assets/js/bootstrap.min.js"></script>
+    <script src="../assets/js/script.js"></script>
+
+    <script>
+      $(".carousel").carousel({
+        interval: 2000
+      });
+    </script>
+  </body>
+</html>
