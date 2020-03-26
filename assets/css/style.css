@@ -56,10 +56,11 @@ body {
 .focus {
   border: 2px solid #007bff;
 }
+/* To be changed for issue */
 .scrollView {
   border: 2px solid #ccc;
-  width: 500px;
-  height: 300px;
+  width: 100%;
+  height: 50vh;
   overflow-y: scroll;
 }
 
@@ -68,4 +69,17 @@ ul {
   margin-block-start: 0em;
   margin-block-end: 0em;
   padding-inline-start: 40px;
+}
+#image{
+  max-width: 15vw;
+}
+
+@media (max-width:768px){
+  #image{
+      max-width: 100%;
+      padding-left: 2vw;
+  }
+  #containerScroll{
+    margin-left: 2vw;
+  }
 }
