@@ -60,7 +60,7 @@ body {
 .scrollView {
   border: 2px solid #ccc;
   width: 100%;
-  height: 50vh;
+  height: 225px;
   overflow-y: scroll;
 }
 
