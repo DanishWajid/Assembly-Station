@@ -68,4 +68,8 @@ $(document).ready(function() {
     $("#videoDiv video")[0].load();
     $("#play-vid-modal").modal("show");
   });
+
+  $("button[btn-close]").click(function() {
+    $("#videoDiv video").trigger("pause");
+  });
 });
